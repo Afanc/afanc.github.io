@@ -155,7 +155,7 @@ a:hover{text-decoration:underline;}
 	top: 5px;
 	position: absolute;
 }
-.logo {
+.logo {         /*--- Title ---*/
 	text-align:center;
 	font-family: 'novecentosanswide';
 	font-weight:bold;
@@ -186,7 +186,7 @@ a:hover{text-decoration:underline;}
 	line-height: 20px;
 	text-transform: uppercase;
 	padding: 0 0 10px;
-	border-bottom: 4px solid #62bb7f;
+	border-bottom: 4px solid #000000;
 	font-family: 'novecentosanswide';
 	font-weight: normal;
 }
