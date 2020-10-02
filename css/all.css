@@ -181,7 +181,7 @@ a:hover{text-decoration:underline;}
 }
 #nav ul li:first-child{padding: 0;}
 #nav ul a {
-	color: #50af6f;
+	color: #000000;
 	font-size: 18px;
 	line-height: 20px;
 	text-transform: uppercase;
@@ -206,7 +206,7 @@ h2.slogan{
 	font-family: 'novecento_sans_widebook';
 	font-size: 30px;
 	line-height: 32px;
-	color: #50af6f;
+	color: #000000;
 	padding: 34px 0 50px 0;
 	background: url(../images/slogan_bg.gif) no-repeat 50% 0;
 }
