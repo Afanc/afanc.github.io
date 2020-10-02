@@ -159,7 +159,7 @@ a:hover{text-decoration:underline;}
 	text-align:center;
 	font-family: 'novecentosanswide';
 	font-weight:bold;
-	color: #fff;
+	color: #000000;
 	font-size: 72px;
 	line-height: 74px;
 	display: block;
@@ -272,7 +272,7 @@ h2.slogan{      /*--- sub-title---*/
 }
 .box_timeline h3{
 	font-family: 'novecento_sans_widemedium';
-	color: #000000;
+	color: #50af6f;
 	font-size: 14px;
 	line-height: 16px;
 	display: block;
