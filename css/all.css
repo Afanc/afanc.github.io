@@ -155,11 +155,11 @@ a:hover{text-decoration:underline;}
 	top: 5px;
 	position: absolute;
 }
-.logo {         /*--- Title ---*/
+.logo {         /*--- title ---*/
 	text-align:center;
 	font-family: 'novecentosanswide';
 	font-weight:bold;
-	color: #000000;
+	color: #46484c;
 	font-size: 72px;
 	line-height: 74px;
 	display: block;
