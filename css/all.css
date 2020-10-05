@@ -54,7 +54,7 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	/*---font: inherit;---*/
 	vertical-align: baseline;
 }
 
@@ -159,12 +159,34 @@ a:hover{text-decoration:underline;}
 	text-align:center;
 	font-family: 'novecentosanswide';
 	font-weight:bold;
-	color: #46484c;
+	color: #0c0d0d;
 	font-size: 72px;
 	line-height: 74px;
 	display: block;
 	text-transform: uppercase;
-	margin: 85px 0 23px;
+	margin: 25px 0 23px;
+}
+.hello{         /*--- hello---*/
+	text-align:left;
+	font-family: 'novecentosanswide';
+	font-weight:bold;
+	color: #0c0d0d;
+	font-size: 25px;
+	line-height: 14px;
+	display: block;
+	text-transform: uppercase;
+	margin: 85px 0 23px 220px;
+}
+.subtext{
+	text-align:left;
+        width:70%;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000;
+	font-size: 19px;
+	line-height: 32px;
+	display: block;
+	margin: 35px 0 13px 220px;
+
 }
 #nav {
 	position: relative;
@@ -227,7 +249,7 @@ h2.slogan{      /*--- sub-title---*/
 	font-size: 30px;
 	line-height: 32px;
 	color: #fff;
-	margin: 0 0 81px;
+	margin: 0 0 51px;
 }
 .box_timeline_holder{
 	background: url(../images/bg_timeline_l.png) no-repeat 0 70px;
@@ -328,14 +350,16 @@ h2.slogan{      /*--- sub-title---*/
 	font-size: 18px;
 	padding: 0 0 0 20px;
 }
-.progress li span.photoshop{width: 100%;}
-.progress li span.illustrator{width: 70%;}
-.progress li span.indesign{width: 40%;}
-.progress li span.flash{width: 80%;}
-.progress li span.html{width: 75%;}
-.progress li span.wordpress{width: 85%;}
-.progress li span.jquery{width: 70%;}
-.progress li span.seo{width: 40%;}
+.progress li span.ML{width: 100%;}
+.progress li span.SDA{width: 100%;}
+.progress li span.DV{width: 100%;}
+.progress li span.DL{width: 80%;}
+.progress li span.PG{width: 70%;}
+.progress li span.Bash{width: 100%;}
+.progress li span.Python{width: 100%;}
+.progress li span.R{width: 100%;}
+.progress li span.Perl{width: 80%;}
+.progress li span.C{width: 60%;}
 .plagin_list{
 	width: 100%;
 	overflow: hidden;
@@ -521,8 +545,18 @@ transition: all 0.5s ease-in-out;
 	margin: 0 0 55px;
 	padding: 5px 0 18px 80px;
 }
+.box_contact a:visited {
+  color: white;
+  background-color: transparent;
+}
+.box_contact a[href^="mailto:"]
+{ 
+  color: white;
+  background-color: transparent;
+}
+.box_contact span.linkedin{background: url(../images/icon_linkedin.png) no-repeat;}
 .box_contact span.email{background: url(../images/icon_email2.png) no-repeat;}
-.box_contact span.pgp{background: url(../images/icon_pgp.png) no-repeat;}
+.box_contact span.pgp{font-size:23px; background: url(../images/icon_pgp.png) no-repeat;}
 /*footer
  */
 #footer {
@@ -607,6 +641,38 @@ transition: all 0.5s ease-in-out;
 	width: 100%;
 	height: auto;
 	border-radius: 8px;
+}
+.popup_portfolio2{
+	max-width: 1132px;
+}
+.popup_portfolio2 h3{
+	padding-top:26px;
+	font-family: 'novecentosanswide';
+	font-weight:bold;
+	color: #63666a;
+	font-size: 18px;
+	line-height: 18px;
+	text-transform: uppercase;
+}
+.popup_portfolio2 time{
+	font-family: 'novecentosanswide';
+	color: #abacaf;
+	font-size: 12px;
+	line-height: 12px;
+	text-transform: uppercase;
+}
+.popup_portfolio2 p{
+	padding: 17px 0 8px;
+	color: #808286;
+	font-size: 16px;
+	line-height: 30px;
+}
+.popup_portfolio2 img {
+	width: 40%;
+	height: auto;
+	border-radius: 8px;
+        display:block;
+        margin:auto;
 }
 .fancybox-close {
 	width: 46px;
