@@ -352,10 +352,10 @@ h2.slogan{      /*--- sub-title---*/
 	padding: 0 0 0 20px;
 }
 .progress li span.ML{width: 100%;}
-.progress li span.SDA{width: 100%;}
-.progress li span.DV{width: 100%;}
-.progress li span.DL{width: 80%;}
-.progress li span.PG{width: 70%;}
+.progress li span.DV{width: 85%;}
+.progress li span.DL{width: 100%;}
+.progress li span.SDA{width: 55%;}
+.progress li span.BD{width: 80%;}
 .progress li span.Bash{width: 100%;}
 .progress li span.Python{width: 100%;}
 .progress li span.R{width: 90%;}
